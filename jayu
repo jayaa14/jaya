@@ -1,0 +1,35 @@
+class vartypes
+{
+    int rollnum;
+    string name;
+    char gen;
+    float per;
+    static string dept='cs'; 
+     
+    void display()
+    {
+        system.out.println("rollno:"rollnum);
+        system.out .println("Name:"name);
+        system.out.println("Gender:"gen);
+        system.out.println("percentage:"per);
+        system.out.println();
+    }
+    public static void main(string[]args)
+    {
+        vartypes m1 = new vartypes();
+        vartypes m2 = new vartypes();
+        m1.rollnum=18;
+        m1.name=prajatak;
+        m1.gen="F";
+        m1.per=85.5 f;
+        m1.display();
+        
+        m2.rollnum=19;
+        m2.name='king';
+        m2.gen='M';
+        m2.per=56.8 f;
+        m2.display();
+        
+        system.out.println("Age is:"+age);
+    }    system.out.println("Department of students is:"+dept);
+}
